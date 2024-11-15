@@ -305,7 +305,7 @@ section {
     margin-top: 1rem;
     gap: 1rem;
   }
-  .pokemon-view-btn {
+  .pokemon-view-btn, .pokemon-back-btn {
     font-size: x-small;
   }
 }
