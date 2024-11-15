@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="pokemon-wrapper">
+    <div class="pokemon-header">
+      <nav class="pokemon-nav">
+        <img class="pokemon-logo" src="pokemon-logo.png" alt="">
+        <button class="pokemon-menu" data-hidden="false"></button>
+        <ul class="pokemon-nav-ul" data-visible="false">
+          <li>
+            <img src="pokemon-home.png" alt="">
+            <span>Home</span></li>
+          <li>
+            <img src="pokedex.png" alt="">
+            <span>Pokedex</span></li>
+          <li>
+            <img src="gameboy.png" alt="">
+            <span>Videogames</span></li>
+          <li>
+            <img src="pokemon-card.png" alt="">
+            <span>GCC Pokemon</span></li>
+          <li>
+            <img src="pokemon-tv.png" alt="">
+            <span>TV Pokemon</span></li>
+          <li>
+            <img src="pokemon-play.png" alt="">
+            <span>Play!</span></li>
+          <li>
+            <img src="pokemon-news.png" alt="">
+            <span>News</span></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="pokemon-wrapper">
+        <nav class="pokemon-filter">
+          <div class="search">
+            <input class="pokemon-search" type="text" placeholder="Search a pokemon">
+            <button class="pokemon-search-btn">Search</button>
+          </div>
+
+          <ul class="pokemon-filter-list">
+            <li>Type</li>
+            <li>Weaknesses</li>
+            <li>Ability</li>
+            <li>Height</li>
+            <li>Weight</li>
+          </ul>
+        </nav>
+
+        <div class="pokemon-cards-container">
+          <div class="pokemon-cards">
+            <!-- Auto Generate -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
